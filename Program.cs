@@ -27,7 +27,7 @@ class Solution
 	public int MinOperations(int[] nums)
 	{
 		int n = nums.Length;
-		int minOperations = int.MaxValue;
+		int minOperations = n;
 		SortedSet<int> uniqueNums = new();
 		foreach (int num in nums)
 		{
